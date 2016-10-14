@@ -55,15 +55,3 @@ def convert(file_name, converted_file="convertedfile.py"):
 
 #file = r"tfile.py"
 #convert(file)
-
-
-
-#TODO: Can't handle print-statement with just new line:
-# print
-
-
-#TODO: Future implementation: replace xrange with range
-
-# At the moment the new file is always created in the directory that the code is running
-# TODO: Fix so that the user can choose directory
-    # This could be done by adding a new function
