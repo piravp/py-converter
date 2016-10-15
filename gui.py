@@ -1,6 +1,6 @@
 from tkinter.filedialog import askopenfilename
 from tkinter import *
-from filehandler import convert
+from main import convert
 
 
 
@@ -41,12 +41,12 @@ class Application(Frame):
         Frame.__init__(self, master)
         master.title("Python 3.5 translator")
         master.minsize(width=220, height=100)
-        master.maxsize(width=400,height=200)
-        master.iconbitmap(r'C:\Users\Bruker\Pictures\python.ico')
+        master.maxsize(width=400, height=200)
+        master.iconbitmap(r'icon/python.ico')
         self.pack(side="top")
         filepath = self.createWidgets()
         convert(filepath)
-        print("funksjonen returnerte ", filepath)
+        print("Convert-method returned: ", filepath)
 
 root = Tk()
 app = Application(master=root)

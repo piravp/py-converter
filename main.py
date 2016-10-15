@@ -53,5 +53,5 @@ def convert(file_name, converted_file="convertedfile.py"):
             line = findAndReplace(line)
             new_file.write(line)
 
-#file = r"tfile.py"
-#convert(file)
+file = r"code_samples/sample2.py"
+convert(file)

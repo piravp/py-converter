@@ -15,10 +15,10 @@ The script can be ran within the terminal, or using a simple (and I mean *reeeal
 Listed after priority.
 
 * Make it runnable without need to download anything else
-* Replace keywords such as ```xrange``` > ```range```.
+* Replace keywords such as ```xrange``` to ```range``` instead.
 * User should be able to choose which directory to write to.
-* Checkbox that lets user choose if comments should be translated. 
-* Make UI better with for instance [PyQt](https://en.wikipedia.org/wiki/PyQt). 
+* Checkbox so users can choose if comments should be left out. 
+* Make better UI. For instance [PyQt](https://en.wikipedia.org/wiki/PyQt). 
 * ```print```, without ```" "``` causes the program to crash - should be fixed. 
 
 ## Changes
