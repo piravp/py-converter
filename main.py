@@ -53,5 +53,14 @@ def convert(file_name, converted_file="convertedfile.py"):
             line = findAndReplace(line)
             new_file.write(line)
 
-file = r"code_samples/sample2.py"
-convert(file)
+def main():
+    # **************************************************
+    #
+    # Specify python 2.7 file you want to convert.
+    #
+    # **************************************************
+    file = r"code_samples/sample2.py"
+    convert(file)
+
+if __name__ == "__main__":
+    main()
