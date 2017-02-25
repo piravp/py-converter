@@ -1,6 +1,6 @@
 # Example of python 2.7 syntax
 # Use this file to test
-    # - run through main.py
+    # run using main.py
 
 print ""
 

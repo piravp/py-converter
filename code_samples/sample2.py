@@ -2,6 +2,10 @@ import sys, argparse
 import re
 from collections import defaultdict
 
+# Example of python 2.7 syntax
+# Use this file to test
+    # run using main.py
+
 class LiveHack:
 
 
